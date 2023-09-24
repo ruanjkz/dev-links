@@ -11,6 +11,7 @@ export default async function Home() {
     { url: 'https://discord.gg/cancunrp', name: '@fusiongroup' },
     { url: 'https://discord.gg/nexusrp', name: '@nexusgroup' },
     { url: 'https://discord.gg/race', name: '@raceultimate' },
+    { url: 'https://discord.gg/2Reeah3p', name: '@goat' },
     { url: 'https://discord.gg/filadelfiacity', name: '@filadelfiagroup' },
     { url: 'https://discord.gg/energy-rp', name: '@energyrp' },
     { url: 'https://discord.gg/winspvp', name: '@winspvp' },
