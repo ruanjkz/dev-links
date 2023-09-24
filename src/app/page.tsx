@@ -23,7 +23,7 @@ export default async function Home() {
   return (
     <div className='w-screen h-screen flex flex-col gap-2 items-center bg-background bg-cover bg-no-repeat'>
       <Profile avatarUrl={user.avatar_url} userName={user.login}/>
-      <div className='flex flex-col items-center justify-center gap-4 mt-[2.5rem] w-auto h-[50%] overflow-y-auto px-2'>
+      <div className='flex flex-col items-center gap-4 mt-[2.5rem] h-[50%] overflow-y-auto px-2'>
         {
           links.map((link, index) => <Links key={index} url={link.url} name={link.name}/>)
         }
